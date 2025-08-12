@@ -54,3 +54,17 @@ DreamVu PAL es un sensor  capaz de ofrecer visión 360° estereoscópica con det
     - Navegación autónoma de robots móviles.
     - Evasion de obstáculos en AGV y drones.
     - Monitoreo y análisis de entornos industriales.
+
+![Camara 360](./camara360.jpg)
+
+## Sensor de Proximidad Capacitivo
+
+Es un dispositivo utilizado para detectar la presencia o ausencia de objetos sin contacto físico. Funciona aprovechando el principio de variación de capacitancia: en su extremo frontal se encuentra un electrodo que genera un campo eléctrico; cuando un objeto (metálico o no metálico) entra en ese campo, la capacitancia cambia y el sensor activa su salida. A diferencia de los sensores inductivos, que solo detectan metales, los capacitivos pueden detectar materiales como plástico, vidrio, madera, líquidos o polvos, lo que los hace muy versátiles en entornos industriales. Son comunes en procesos de automatización, control de niveles y conteo de piezas.
+
+- Materiales detectables: Metales, plásticos, vidrio, madera, líquidos, polvos.
+- Distancia típica de detección: Entre 2 mm y 40 mm, según el modelo y el material del objeto.
+- Alimentación típica: 10 a 30 VDC.
+
+![Sensor Capacitivo](./Sensor%20capacitivo.jpg)
+
+
