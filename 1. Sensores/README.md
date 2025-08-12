@@ -40,3 +40,17 @@ Velocidad de medición típica: Desde unos pocos cm/s hasta más de 50 m/s, depe
 - Limitaciones: Mide únicamente la velocidad del viento, no la dirección (para eso se combina con veletas).
 
 ![Anemometro](./Viento.jpg)
+
+## Camara 360° DreamVu PAL
+
+DreamVu PAL es un sensor  capaz de ofrecer visión 360° estereoscópica con detección de profundidad integrada. A diferencia de una cámara panorámica convencional, este dispositivo no solo captura el entorno completo en todas las direcciones, sino que también calcula la distancia a los objetos, generando mapas de profundidad en tiempo real. Para lograrlo, utiliza un sistema óptico único que combina lentes ultra gran angular y procesamiento estereoscópico, permitiendo reconstruir una escena en tres dimensiones a partir de una sola unidad. Esto lo convierte en una herramienta ideal para robótica autónoma, vehículos de guiado automático (AGV), drones, navegación en entornos industriales y aplicaciones de realidad aumentada o virtual. Además, su diseño compacto y encapsulado le permite integrarse fácilmente en sistemas móviles, ofreciendo un amplio campo de visión sin puntos ciegos y reduciendo la necesidad de múltiples sensores distribuidos.
+
+- Funciones clave:
+    - Captura de video panorámico en tiempo real.
+    - Generación de mapas de profundidad (depth maps).
+    - Soporte para algoritmos de localización y mapeo simultáneo (SLAM).
+
+- Aplicaciones típicas:
+    - Navegación autónoma de robots móviles.
+    - Evasion de obstáculos en AGV y drones.
+    - Monitoreo y análisis de entornos industriales.
