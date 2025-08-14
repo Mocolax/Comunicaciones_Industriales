@@ -25,3 +25,49 @@ Características principales:
 
 - Topología: Punto a punto (un transmisor y un receptor).
 - Conectores comunes: DB-9 y DB-25 (aunque la norma no exige un conector específico).
+
+## Conector DB9 (RS-232)
+
+| Pin | Nombre       | Dirección | Descripción                                                                 |
+|-----|--------------|-----------|-----------------------------------------------------------------------------|
+| 1   | DCD          | Entrada   | *Data Carrier Detect*: Indica que el módem detectó portadora.               |
+| 2   | RXD          | Entrada   | *Receive Data*: Datos recibidos desde el dispositivo remoto.                |
+| 3   | TXD          | Salida    | *Transmit Data*: Datos enviados al dispositivo remoto.                      |
+| 4   | DTR          | Salida    | *Data Terminal Ready*: Señal de que el terminal está listo.                  |
+| 5   | GND          | —         | Tierra de señal (*Signal Ground*).                                          |
+| 6   | DSR          | Entrada   | *Data Set Ready*: El módem/equipo está listo para operar.                    |
+| 7   | RTS          | Salida    | *Request To Send*: Petición para transmitir datos.                           |
+| 8   | CTS          | Entrada   | *Clear To Send*: Permiso para transmitir datos.                              |
+| 9   | RI           | Entrada   | *Ring Indicator*: Indica que se recibe una llamada (en módems).              |
+
+---
+
+## Conector DB25 (RS-232)
+
+| Pin | Nombre       | Dirección | Descripción                                                                 |
+|-----|--------------|-----------|-----------------------------------------------------------------------------|
+| 1   | GND Chasis   | —         | Tierra de chasis (*Protective Ground*).                                     |
+| 2   | TXD          | Salida    | *Transmit Data*: Datos enviados al dispositivo remoto.                      |
+| 3   | RXD          | Entrada   | *Receive Data*: Datos recibidos desde el dispositivo remoto.                |
+| 4   | RTS          | Salida    | *Request To Send*: Petición para transmitir datos.                           |
+| 5   | CTS          | Entrada   | *Clear To Send*: Permiso para transmitir datos.                              |
+| 6   | DSR          | Entrada   | *Data Set Ready*: El módem/equipo está listo para operar.                    |
+| 7   | GND Señal    | —         | Tierra de señal (*Signal Ground*).                                          |
+| 8   | DCD          | Entrada   | *Data Carrier Detect*: Indica que el módem detectó portadora.               |
+| 9   | —            | —         | No conectado en la mayoría de implementaciones RS-232.                      |
+| 10  | —            | —         | No conectado.                                                               |
+| 11  | —            | —         | No conectado.                                                               |
+| 12  | —            | —         | No conectado.                                                               |
+| 13  | —            | —         | No conectado.                                                               |
+| 14  | —            | —         | No conectado.                                                               |
+| 15  | —            | —         | No conectado o función secundaria en algunos equipos.                       |
+| 16  | —            | —         | No conectado.                                                               |
+| 17  | —            | —         | No conectado.                                                               |
+| 18  | —            | —         | No conectado.                                                               |
+| 19  | —            | —         | No conectado.                                                               |
+| 20  | DTR          | Salida    | *Data Terminal Ready*: Señal de que el terminal está listo.                  |
+| 21  | —            | —         | No conectado.                                                               |
+| 22  | RI           | Entrada   | *Ring Indicator*: Indica llamada entrante.                                  |
+| 23  | —            | —         | No conectado.                                                               |
+| 24  | —            | —         | No conectado o reloj en aplicaciones síncronas.                             |
+| 25  | —            | —         | No conectado.                                                               |
