@@ -1,4 +1,8 @@
-# MAX232 y sus variantes
+# MAX232
+
+## Esquema electrico
+![Esquema Electrico](./MAX232_3.png)
+
 ## Descripción general
 
 El MAX232 es un circuito integrado que convierte niveles lógicos TTL/CMOS (0–5 V o 0–3.3 V) a los niveles eléctricos RS-232 (±3 a ±15 V).
