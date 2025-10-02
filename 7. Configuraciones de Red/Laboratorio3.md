@@ -1,14 +1,14 @@
-Laboratorio 3
- Objetivos del Laboratorio
+# Laboratorio 3
+## Objetivos del Laboratorio
  1. Configurar y explorar un switch básico (24/48 puertos) de la Universidad Santo
  Tomás.
  2. Desarrollar y probar diferentes conexiones topológicas de red utilizando PCs y Ar
 duinos conectados por LAN.
  3. Documentar la práctica y anexarla al repositorio en GitHub.
- Punto 1: Conociendo el switch y la red interna
+## Punto 1: Conociendo el switch y la red interna
  En este punto se realizó la configuración inicial del switch mediante el software
  PuTTY y el protocolo de conexión correspondiente.
- Actividades desarrolladas
+### Actividades desarrolladas
  Visualización de información en memoria NVRAM.
  Identificación de la MAC address y su significado.
  Habilitación del switch y creación de interfaces VLAN con máscaras /24, /16 y
