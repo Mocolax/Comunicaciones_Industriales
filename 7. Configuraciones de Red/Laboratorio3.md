@@ -45,3 +45,34 @@ Se simuló la **caída de un nodo** y se observó el impacto en la red.
 
 <img width="323" height="91" alt="image" src="https://github.com/user-attachments/assets/2df22ad1-18e7-41d8-aeee-b5602ac5610b" />
 
+# Punto 3: Integración con GitHub
+
+Todo el desarrollo correspondiente a los **Puntos 1 y 2** fue correctamente documentado y subido al repositorio del proyecto.  
+Esto permitió mantener una estructura organizada y un control de versiones claro a lo largo de todo el proceso de laboratorio.
+
+### Archivos incluidos en el repositorio
+El repositorio contiene los siguientes elementos:
+
+**Configuraciones del switch:**  
+  Archivos con los comandos utilizados para la creación y gestión de VLANs, asignación de puertos y verificación de conectividad.  
+  Estos archivos facilitan la replicación del entorno en otros dispositivos o simuladores.
+
+**Programas de comunicación:**  
+  Códigos desarrollados para la interacción entre **Arduinos** y **PCs**, tanto por conexión serial como a través de red local (LAN).  
+  Se documentaron los protocolos de envío, la estructura de los paquetes y las pruebas realizadas.
+
+**Archivo README:**  
+  Documento principal del repositorio (este mismo archivo), que describe los objetivos, la estructura del proyecto y las instrucciones necesarias para ejecutar cada componente.
+
+---
+
+# Conclusiones
+
+- La práctica permitió **comprender la configuración básica de un switch**, abarcando tanto la creación de VLANs como la verificación de conectividad entre dispositivos.  
+- Se analizaron y compararon distintas **topologías de red**, observando su impacto en el desempeño y la latencia de comunicación.  
+- La **integración de PCs y Arduinos** dentro de una misma red local destacó la importancia de los **protocolos estandarizados** (como TCP/IP y UART) para lograr interoperabilidad.  
+- **GitHub** se empleó como **repositorio central** para el control de versiones, la colaboración y la documentación de los resultados obtenidos.  
+- La implementación de un flujo de trabajo basado en **branches y commits** ayudó a mantener la trazabilidad y evitar conflictos entre diferentes versiones del código.  
+- Este proceso también fomentó el uso de **buenas prácticas de documentación**, algo esencial en entornos colaborativos de ingeniería.
+
+
