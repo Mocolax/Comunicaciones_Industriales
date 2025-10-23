@@ -1,5 +1,7 @@
 # Clasificación de Dispositivos por Protocolos de Comunicación Industrial
 
+# Mateo Gutierrez, Nicolas Alfonso, Julian Montealegre
+
 La siguiente tabla muestra la compatibilidad de diferentes dispositivos con los protocolos **Modbus**, **AS-Interface (AS-i)**, **Ethernet**, **Profibus**, **Profinet** y **RS485**, junto con una breve descripción técnica de cada uno.
 
 | Dispositivo | Modbus | AS-i | Ethernet | Profibus | Profinet | RS485 |
