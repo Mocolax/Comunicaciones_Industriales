@@ -1,4 +1,7 @@
 # Laboratorio 3
+
+# Mateo Gutierrez, Nicolas Alfonso, Julian Montealegre
+
 ## Objetivos del Laboratorio
  1. Configurar y explorar un switch básico (24/48 puertos) de la Universidad Santo
  Tomás.
