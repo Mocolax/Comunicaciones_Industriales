@@ -1,5 +1,7 @@
 # Taller 2 - Tecnologías de comunicación industrial
 
+#  Mateo Gutierrez, Nicolas Alfonso, Julian Montealegre
+
 ## 1. PROFIBUS
 Tres tecnologías derivadas:
 1. PROFIBUS DP: utilizada para la comunicación rápida entre PLC y periféricos como sensores y actuadores.  
@@ -29,3 +31,4 @@ Tres tecnologías basadas:
 1. Serial Interface para maquinaria CNC: comunicación punto a punto entre controladores y periféricos.  
 2. SCSI-1: primeras implementaciones de buses de datos industriales que usaban RS-422 para transmisión diferencial.  
 3. Apple LocalTalk y MIDI 2.0: sistemas que emplearon RS-422 para comunicación de datos robusta entre equipos.
+
