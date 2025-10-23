@@ -1,5 +1,7 @@
 # 9. Laboratorio RS485
 
+# Mateo Gutierrez, Nicolas Alfonso, Julian Montealegre
+
 ## 1. Objetivo
 Este laboratorio tiene como propósito implementar comunicación RS-485 con dos Arduino Uno, evaluando dos configuraciones del bus: simplex y full-duplex, usando dos y cuatro módulos MAX485, respectivamente. En la práctica, un Arduino enviará el valor leído desde un potenciómetro y el otro controlará un motor reductor tipo servo de forma proporcional. Durante las pruebas se medirán la tasa de paquetes, los errores y la estabilidad del enlace para comparar el comportamiento de ambas topologías.
 
