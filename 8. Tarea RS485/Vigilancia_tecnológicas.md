@@ -91,6 +91,90 @@
 
 ## 4. Direccionamiento IP en redes industriales y de planta
 
+
+### ¿Qué es IPv4?
+
+**IPv4 (Internet Protocol version 4)** es la cuarta versión del Protocolo de Internet (IP) y la más utilizada históricamente para la comunicación en redes.  
+Fue diseñada para identificar dispositivos mediante una dirección única de **32 bits**, lo que permite aproximadamente **4.3 mil millones de direcciones** diferentes.
+
+#### 🔹 Características de IPv4
+- Usa **32 bits**, divididos en **cuatro octetos** separados por puntos (por ejemplo, `192.168.1.1`).
+- Soporta **clases de direcciones** (A, B, C, D, E) y actualmente usa **CIDR (Classless Inter-Domain Routing)**.
+- Permite **asignación manual o automática** mediante DHCP.
+- Utiliza **broadcast** para enviar mensajes a todos los dispositivos de una red.
+- Puede usar **NAT (Network Address Translation)** para compartir una sola dirección pública entre varios dispositivos.
+- Seguridad mediante **IPSec**, pero es **opcional**.
+
+---
+
+### ¿Qué es IPv6?
+
+**IPv6 (Internet Protocol version 6)** es la versión más reciente del Protocolo de Internet, creada para reemplazar a IPv4 debido al agotamiento de direcciones.  
+Utiliza direcciones de **128 bits**, lo que permite una cantidad prácticamente ilimitada de direcciones únicas.
+
+#### 🔹 Características de IPv6
+- Usa **128 bits**, escritos en formato **hexadecimal** y separados por dos puntos (por ejemplo, `2001:0db8:85a3::8a2e:0370:7334`).
+- No utiliza clases, sino **prefijos** para identificar tipos de redes.
+- Posee **autoconfiguración automática (SLAAC)** y soporte para **DHCPv6**.
+- No usa **broadcast**, sino **multicast** y **anycast**.
+- Tiene **IPSec integrado** de manera nativa, aumentando la seguridad.
+- Mejora la **calidad de servicio (QoS)** mediante los campos *Traffic Class* y *Flow Label*.
+- No requiere **NAT**, gracias a su amplio espacio de direcciones.
+
+---
+
+### Tipos de direcciones IPv4 
+
+- **Unicast**  
+  - Dirección única a un solo host (ej.: `192.0.2.1`).  
+  - Uso: comunicación punto a punto (host ↔ host).  
+
+- **Broadcast**  
+  - Dirección que entrega un paquete a *todos* los hosts de la subred.  
+  - Ejemplo: `192.168.1.255` (broadcast de la subred `192.168.1.0/24`).  
+  - Uso: descubrimiento y anuncios en la LAN (ARP, DHCP en algunos casos).
+
+- **Multicast**  
+  - Envío a un *grupo* de receptores interesados, no a todos.  
+  - Rango: `224.0.0.0` – `239.255.255.255`.  
+  - Uso: streaming, protocolos de control de red, descubrimiento de servicios.
+
+- **Anycast (poco usado en IPv4)**  
+  - Misma dirección asignada a múltiples nodos; el paquete es entregado al nodo "más cercano" según la topología de enrutamiento.  
+  - Uso: balanceo y distribución de servicios, aunque es más habitual en IPv6.
+
+- **Especiales / Reservadas**  
+  - `0.0.0.0` → Dirección no especificada (inicio de DHCP, rutas).  
+  - `127.0.0.0/8` → Loopback (ej.: `127.0.0.1`).  
+  - `169.254.0.0/16` → Enlace local (APIPA) cuando no hay DHCP.  
+  - `255.255.255.255` → Broadcast limitado.
+
+---
+
+### Tipos de direcciones IPv6 
+
+- **Unicast**  
+  - Direcciones para un único interfaz. Las hay de varios subtipos:  
+    - **Global Unicast (GUA)**: `2000::/3` → direcciones públicas en Internet.  
+    - **Unique Local (ULA)**: `fc00::/7` → similar a privadas en IPv4 (`10.x.x.x`), para redes internas.  
+    - **Link-Local**: `fe80::/10` → sólo en el mismo enlace / segmento físico; usadas para autoconfiguración, vecindario y descubrimiento.  
+    - **Loopback**: `::1/128` → pruebas locales.
+
+- **Multicast**  
+  - Prefijo `ff00::/8`. IPv6 usa multicast para reemplazar la difusión.  
+  - Ejemplos de usos: Neighbor Discovery (ND), protocolos de routing, servicios de grupo.  
+  - Los paquetes multicast tienen identificadores de alcance (link-local, site-local, global, etc.).
+
+- **Anycast**  
+  - Asignación de la misma dirección unicast a múltiples interfaces en diferentes nodos.  
+  - El tráfico se enrutará al "mejor" nodo según la topología.  
+  - Uso: balanceo de servicios, servidores de borde, CDN internos.
+
+- **Unspecified**  
+  - `::/128` → usada cuando no se ha asignado dirección (por ejemplo, antes de realizar SLAAC).
+
+---
+
 ### Diferencias clave entre IPv4 e IPv6
 - Longitud de dirección: IPv4 usa 32 bits y IPv6 usa 128 bits
 - Formato: IPv4 en decimal con puntos y IPv6 en hexadecimal con dos puntos y abreviaciones
