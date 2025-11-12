@@ -27,6 +27,7 @@ Finalmente, se revisaron las tablas ARP y las direcciones MAC para asegurar que 
 Una vez verificadas las VLANs, se analizó la topología de red implementada.
 Se confirmó que la estructura seguía un modelo jerárquico, donde el router funcionaba como dispositivo de capa 3 encargado del enrutamiento (en caso de necesitar comunicación entre VLANs) y los switches actuaban como dispositivos de capa 2 responsables de la segmentación.
 La revisión general del estado de los puertos, direcciones IP, tablas ARP y conectividad validó que la red estaba correctamente implementada y operativa.
+<img width="920" height="691" alt="image" src="https://github.com/user-attachments/assets/b4f9069c-9ea8-4e55-bf45-d4a922d5f09c" />
 
 7. Conclusión
 
