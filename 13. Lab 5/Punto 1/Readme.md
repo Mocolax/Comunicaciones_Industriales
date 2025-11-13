@@ -1,8 +1,8 @@
-# Punto 1. Configuración y Verificación de VLANs
+# 🧩 Configuración y Verificación de VLANs
 
 ---
 
-## Evidencias iniciales
+## 📸 Evidencias iniciales
 
 <p align="center">
   <img src="./evidencia1_1.jpg" width="45%">
@@ -15,19 +15,19 @@
 
 ---
 
-##  1. Objetivo del laboratorio
+## 🎯 1. Objetivo del laboratorio
 Configurar una red segmentada mediante **VLANs (Virtual Local Area Networks)** y verificar su correcto funcionamiento a través de pruebas de **ARP, IP, conectividad y estructura de red**.  
 El propósito fue **aislar el tráfico entre grupos de dispositivos**, garantizando que cada VLAN operara como una red independiente dentro de la misma infraestructura física.
 
 ---
 
-##  2. Equipos y topología utilizada
+## ⚙️ 2. Equipos y topología utilizada
 Se utilizó un **router de capa 3**, **dos switches de capa 2** y varios **dispositivos finales (PCs)** conectados a diferentes puertos físicos.  
 En condiciones ideales, se conectaron **dos PCs por cada switch**, pero por disponibilidad de equipos, una VLAN contó con un solo PC.
 
 ---
 
-##  3. Configuración del router y los switches
+## 🔧 3. Configuración del router y los switches
 - En el **router**, se configuraron los parámetros básicos para permitir la gestión y el direccionamiento.  
 - En los **switches**, se crearon dos VLANs independientes para segmentar el tráfico.  
 - Cada VLAN utilizó una dirección del tipo `192.168.x.1` con máscara `255.255.255.0`.  
@@ -37,7 +37,7 @@ En condiciones ideales, se conectaron **dos PCs por cada switch**, pero por disp
 
 ---
 
-##  4. Verificación de la VLAN 1
+## 🧠 4. Verificación de la VLAN 1
 - Se verificaron las direcciones IP asignadas a los dispositivos.  
 - Se realizaron pruebas de conectividad mediante `ping` dentro de la VLAN.  
 - Se ejecutó `arp -a` para comprobar la tabla ARP, confirmando la resolución de direcciones IP–MAC.  
@@ -45,7 +45,7 @@ En condiciones ideales, se conectaron **dos PCs por cada switch**, pero por disp
 
 ---
 
-##  5. Verificación de la VLAN 2
+## 🧠 5. Verificación de la VLAN 2
 - Se repitieron las pruebas de IP, ping y ARP.  
 - Los equipos dentro de la VLAN 2 se comunicaron correctamente.  
 - Los intentos de ping entre VLANs fallaron, comprobando el aislamiento esperado.  
@@ -53,7 +53,7 @@ En condiciones ideales, se conectaron **dos PCs por cada switch**, pero por disp
 
 ---
 
-##  6. Comprobación de la arquitectura y la topología de red
+## 🕸️ 6. Comprobación de la arquitectura y la topología de red
 Se verificó una **topología jerárquica**:
 - El **router** operó como dispositivo de **capa 3**, encargado del enrutamiento entre VLANs.  
 - Los **switches** actuaron como dispositivos de **capa 2**, responsables de la segmentación.  
@@ -62,7 +62,7 @@ El análisis de **puertos, IPs, ARP y conectividad** validó que la red estaba c
 
 ---
 
-##  VLAN 1
+## 🖥️ VLAN 1
 
 <p align="center">
   <img src="./Vlan1_1.png" width="45%">
@@ -71,7 +71,7 @@ El análisis de **puertos, IPs, ARP y conectividad** validó que la red estaba c
 
 ---
 
-##  VLAN 2
+## 🖥️ VLAN 2
 
 <p align="center">
   <img src="./Vlan1_2.png" width="45%">
@@ -80,7 +80,7 @@ El análisis de **puertos, IPs, ARP y conectividad** validó que la red estaba c
 
 ---
 
-##  Otras configuraciones
+## 🧩 Otras configuraciones
 
 <p align="center">
   <img src="./otros1_1.png" width="45%">
@@ -91,7 +91,7 @@ El análisis de **puertos, IPs, ARP y conectividad** validó que la red estaba c
 
 ---
 
-##  7. Conclusión
+## ✅ 7. Conclusión
 
 La configuración de las **VLANs** permitió segmentar efectivamente la red, reduciendo el dominio de broadcast y mejorando el control del tráfico.  
 Las pruebas con **IP, ARP y ping** confirmaron que los dispositivos dentro de una misma VLAN se comunicaban entre sí, mientras que los de VLANs distintas permanecían aislados.  
