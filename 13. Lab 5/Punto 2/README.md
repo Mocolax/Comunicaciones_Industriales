@@ -40,7 +40,7 @@ El flujo de trabajo es el siguiente:
 2. Se envía el mensaje *“Hola desde Raspberry Pi”*.
 3. Se cambia al modo recepción (DE y RE en bajo).
 4. Se espera la respuesta proveniente del esclavo.
-5. 
+
 <img src="./Conexion Rasberry.jpg" width="45%">
 <img src="./Consola Rasberry.jpg" width="45%">
 
@@ -60,6 +60,7 @@ Para ello, se utilizaron los pines 10 (RX) y 11 (TX) mediante la librería `Soft
 
 Durante la ejecución, se observó un intercambio continuo de mensajes entre ambos dispositivos, evidenciando el funcionamiento bidireccional del enlace RS-485.  
 En la consola de la Raspberry Pi se imprimían las líneas:
+
 
 
 
