@@ -39,7 +39,7 @@ La revisión general del estado de los puertos, direcciones IP, tablas ARP y con
 
 ## Vlan1 
 
-
+![Descripción](./Vlan1_1.png)
 
 
 ## Vlan2 
