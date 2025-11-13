@@ -31,31 +31,31 @@ Una vez verificadas las VLANs, se analizó la topología de red implementada.
 Se confirmó que la estructura seguía un modelo jerárquico, donde el router funcionaba como dispositivo de capa 3 encargado del enrutamiento (en caso de necesitar comunicación entre VLANs) y los switches actuaban como dispositivos de capa 2 responsables de la segmentación.
 La revisión general del estado de los puertos, direcciones IP, tablas ARP y conectividad validó que la red estaba correctamente implementada y operativa.
 
-
-
-
+![Descripción](./evidencia1_1.jpg)
+![Descripción](./evidencia1_2.jpg)
+![Descripción](./evidencia1_3.jpg)
+![Descripción](./evidencia1_4.jpg)
+![Descripción](./evidencia1_5.jpg)
+![Descripción](./evidencia1_6.jpg)
 
 
 
 ## Vlan1 
-
 ![Descripción](./Vlan1_1.png)
-
+![Descripción](./Vlan1_2.png)
 
 ## Vlan2 
 
-
-
-
-
+![Descripción](./Vlan1_2.png)
+![Descripción](./Vlan2_2.png)
 
 ## otras configuraciones
 
 
-
- 
-
-
+![Descripción](./otros1_1.png)
+![Descripción](./otros1_2.png)
+![Descripción](./otros1_3.png)
+![Descripción](./otros1_4.png)
 
       
 
