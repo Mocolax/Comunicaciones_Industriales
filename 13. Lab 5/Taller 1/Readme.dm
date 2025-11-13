@@ -33,28 +33,17 @@ La revisión general del estado de los puertos, direcciones IP, tablas ARP y con
 
 
 
-<img width="920" height="691" alt="image" src="https://github.com/user-attachments/assets/736970e5-6d61-4f47-b31b-7349fadd663f" />
-<img width="920" height="691" alt="image" src="https://github.com/user-attachments/assets/4f359182-3f90-4093-b917-fa539cdfba5d" />
-<img width="919" height="1227" alt="image" src="https://github.com/user-attachments/assets/63a9578e-014a-4f79-8fb4-dd8f29e7177f" />
-<img width="920" height="691" alt="image" src="https://github.com/user-attachments/assets/3f6a5fe3-7153-441f-b218-b2a58c50e630" />
-<img width="920" height="691" alt="image" src="https://github.com/user-attachments/assets/44e52d83-fd25-4cb2-b85c-48482146c7a6" />
-<img width="920" height="691" alt="image" src="https://github.com/user-attachments/assets/3aefe004-bcce-424f-89fd-5e6e43a78fa1" />
+
 
 
 
 ## Vlan1 
-  
-<img width="920" height="615" alt="image" src="https://github.com/user-attachments/assets/e8196124-ca1c-4fd9-a64d-2e4e8efa515b" />
-<img width="920" height="799" alt="image" src="https://github.com/user-attachments/assets/5a1d28bc-4c2b-4c9a-a7ac-942d00d7101c" />
+
 
 
 
 ## Vlan2 
 
-
- 
-<img width="920" height="799" alt="image" src="https://github.com/user-attachments/assets/fbc6a4f9-f016-4caa-be3a-baeadf928d04" />
-<img width="920" height="769" alt="image" src="https://github.com/user-attachments/assets/f2c38fa3-78de-4a52-b3fa-09ef29426b58" />
 
 
 
@@ -63,12 +52,6 @@ La revisión general del estado de los puertos, direcciones IP, tablas ARP y con
 ## otras configuraciones
 
 
-
-
- <img width="920" height="769" alt="image" src="https://github.com/user-attachments/assets/af84474f-e3ce-44ef-8db7-296b56fa3070" />
-
-<img width="600" height="251" alt="image" src="https://github.com/user-attachments/assets/38ae96c0-b5f7-46c5-9a97-797a4e736ddd" />
-<img width="920" height="588" alt="image" src="https://github.com/user-attachments/assets/a9d64294-a112-437e-aea8-4344642ff8ec" />
 
  
 
