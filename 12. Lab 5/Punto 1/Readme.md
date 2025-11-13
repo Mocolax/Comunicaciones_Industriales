@@ -1,8 +1,8 @@
-# Punto 1. Configuración y Verificación de VLANs
+#  Configuración y Verificación de VLANs
 
 ---
 
-## Evidencias iniciales
+##  Evidencias iniciales
 
 <p align="center">
   <img src="./evidencia1_1.jpg" width="45%">
