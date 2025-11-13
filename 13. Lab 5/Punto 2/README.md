@@ -42,7 +42,7 @@ El flujo de trabajo es el siguiente:
 4. Se espera la respuesta proveniente del esclavo.
 5. 
 <img src="./Conexion Rasberry.jpg" width="45%">
-<img src="./onsola Rasberry.jpg" width="45%">
+<img src="./Consola Rasberry.jpg" width="45%">
 
 ---
 
@@ -52,7 +52,7 @@ Cuando recibe un mensaje desde la Raspberry Pi, responde con *“Hola desde Ardu
 Para ello, se utilizaron los pines 10 (RX) y 11 (TX) mediante la librería `SoftwareSerial`, y los pines 2 y 3 para controlar **DE** y **RE** del módulo MAX485.
 
 <img src="./Conexion Arduino.jpg" width="45%">
-<img src="./onsola Arduino.jpg" width="45%">
+<img src="./Consola Arduino.jpg" width="45%">
 
 ---
 
@@ -60,6 +60,7 @@ Para ello, se utilizaron los pines 10 (RX) y 11 (TX) mediante la librería `Soft
 
 Durante la ejecución, se observó un intercambio continuo de mensajes entre ambos dispositivos, evidenciando el funcionamiento bidireccional del enlace RS-485.  
 En la consola de la Raspberry Pi se imprimían las líneas:
+
 
 
 
