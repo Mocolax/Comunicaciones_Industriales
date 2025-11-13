@@ -40,9 +40,9 @@ El flujo de trabajo es el siguiente:
 2. Se envía el mensaje *“Hola desde Raspberry Pi”*.
 3. Se cambia al modo recepción (DE y RE en bajo).
 4. Se espera la respuesta proveniente del esclavo.
-
-![Conexion Rasberry](https://github.com/user-attachments/assets/cfc1744e-97b3-4e46-816d-149851078fe9)
-![Consola Rasberry](https://github.com/user-attachments/assets/1906261d-b3bf-412b-973b-190cd27b65a3)
+5. 
+<img src="./Conexion Rasberry.jpg" width="45%">
+<img src="./onsola Rasberry.jpg" width="45%">
 
 ---
 
@@ -51,8 +51,8 @@ El Arduino escucha constantemente el bus RS-485.
 Cuando recibe un mensaje desde la Raspberry Pi, responde con *“Hola desde Arduino”*.  
 Para ello, se utilizaron los pines 10 (RX) y 11 (TX) mediante la librería `SoftwareSerial`, y los pines 2 y 3 para controlar **DE** y **RE** del módulo MAX485.
 
-<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/93e7ed0d-2cac-4d49-9a2b-71c9af2ea75e" />
-![Consola Arduino](https://github.com/user-attachments/assets/260fea26-d9c6-46ea-b525-211faa315fbb)
+<img src="./Conexion Arduino.jpg" width="45%">
+<img src="./onsola Arduino.jpg" width="45%">
 
 ---
 
@@ -60,5 +60,6 @@ Para ello, se utilizaron los pines 10 (RX) y 11 (TX) mediante la librería `Soft
 
 Durante la ejecución, se observó un intercambio continuo de mensajes entre ambos dispositivos, evidenciando el funcionamiento bidireccional del enlace RS-485.  
 En la consola de la Raspberry Pi se imprimían las líneas:
+
 
 
