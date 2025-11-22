@@ -1,4 +1,7 @@
 # Laboratorio 5: Comunicación Industrial y Control con PLC
+Gutiérrez Mateo – Cód. 2334475
+Alfonso Rodríguez Nicolás David – Cód. 2303507
+Montealegre Julián – Cód. 2343485
 
 Este laboratorio tuvo como propósito integrar diferentes niveles de
 comunicación industrial, desde la conexión básica de una red local,
@@ -96,3 +99,4 @@ verificación de cada sistema involucrado.\
 Asimismo, se evidenció la utilidad de herramientas como Modbus RTU y TIA
 Portal para implementar y simular procesos de automatización de manera
 práctica y didáctica.
+
