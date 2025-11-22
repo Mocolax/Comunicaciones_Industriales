@@ -1,4 +1,7 @@
 # Taller: Inteligencia Artificial
+Gutiérrez Mateo – Cód. 2334475
+Alfonso Rodríguez Nicolás David – Cód. 2303507
+Montealegre Julián – Cód. 2343485
 ---
 
 ## 1. IA heurística aplicada al manejo de red
