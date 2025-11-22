@@ -76,7 +76,7 @@ Operaciones más complejas como comparaciones, bloques matemáticos o funciones 
 
 ## ¿Cómo funciona la lógica?
 
-Un PLC ejecuta los peldaños **de arriba hacia abajo**, evaluando cada uno en cada ciclo de escaneo.  
+Un PLC ejecuta los peldaños de arriba hacia abajo, evaluando cada uno en cada ciclo de escaneo.  
 Si las condiciones del peldaño se cumplen, la salida asociada cambia de estado.
 
 ## Ventajas del lenguaje Ladder
