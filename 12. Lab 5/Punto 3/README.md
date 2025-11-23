@@ -86,3 +86,38 @@ Si las condiciones del peldaño se cumplen, la salida asociada cambia de estado.
 - Excelente para diagnóstico: el PLC muestra qué contactos están activos en tiempo real.  
 - Estándar en la industria (IEC 61131-3).
 
+# Simulacion enganche de Bombilla
+## Creacion del proyecto
+- Iniciar TIA Portal
+
+- Seleccionar crear proyecto y seguir las instrucciones
+![Crear Proyecto](./images/Crear_proyecto.png)
+
+- Una vez el proyecto este creado, en panel de la izquierda seleccionar redes y dispositivos para seleccionar la CPU del PLC a utilizar
+![Seleccion de CPU](./images/Seleccion_de_CPU.png)
+
+## Componentes
+Dirigirse a la seccion de PLC Tags y añadir los siguietnes Tags:
+- Boton normalmente abierto: Start
+- Boton normalmente cerrado: Stop
+- Salida: Bombillo
+
+![Tags](./images/tags.png)
+
+## Creacion del Programa
+- Abrir el bloque de programa 'Main[OB1]'
+- Añadir los siguientes bloques y poner las etiquetas de entradas y salidas
+![Programa](./images/Programa.png)
+
+## Simulacion
+- Para simular el proyecto primero debe compilarse con el boton a la izquierda de la imagen y el de la derecha para iniciar la simulacion
+![Compilacion](./images/Compilacion.png)
+
+- Luego aparecera una ventana par confirmar la subida del programa al PLC de la simulacion donde simplemente presionaremos cargar
+![Compilacion](./images/Cargar%20programa.png)
+
+- Por ultimo en la ventana de PLC SIM presionaremos RUN. Para visualizar y editar las variables (Entradas y salidas) presionaremos el boton con unas gafas y simbolo de reproducir
+![alt text](./images/Iniciar%20simulacion.png)
+
+- Cuando los colores del diagrama ladder cambien ya podremos cambiar las variables de entrada y observar el cambio en la salidas
+![alt text](./images/Simulacion.png)
